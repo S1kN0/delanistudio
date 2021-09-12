@@ -7,7 +7,7 @@
   .home {
     height: 100vh;
     width: 100%;
-    background-image: url(img/h_img.jpg);
+    background-image: url(images/h_img.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,18 +49,20 @@
   }
   
   .services {
-    background-image: url(img/s_image.jpg);
+    background-image: url(images/s_image.jpg);
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
   }
   
   .services-container {  
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
   }
   
   .services-container > h3 {
@@ -162,7 +164,7 @@
   }
 
   .contact {
-    background-image: url(img/c_image.jpg);
+    background-image: url(images/c_image.jpg);
     height: 400px;
     padding: 20px;
     display: flex;
