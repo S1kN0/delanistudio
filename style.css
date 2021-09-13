@@ -180,6 +180,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
   }
   
   .contact-container {
@@ -249,4 +250,23 @@
       60% {
         transform: translateY(-45px);
       }
+      button{
+
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        background-color: transparent;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+        
+    }
+  }
+    
+button:hover{
+
+    background-color: rgba(255, 255, 255, 0.25);
+}
+      .submit {
+        margin-bottom: 17vh;
     }
