@@ -15,7 +15,7 @@
   }
   
   .logo {
-    margin-bottom: 55px;
+    margin-bottom: 100px;
   }
   
   .welcome {
@@ -55,7 +55,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: w;
+    color: white;
   }
   
   .services-container {  
@@ -180,13 +180,15 @@
   }
   
   .contact-container> h3 {
-    color: white;
+    color:white;
     font-weight: 500;
     margin-bottom: 30px;
+    
   }
   
   .contact-form {
     margin-bottom: 20px;
+    opacity: 0.2;
   }
   
   .contact-form > input {
@@ -216,4 +218,17 @@
   .footer-text > p {
     font-size: 14px;
     
+  }#mouse-click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  #mouse-click {
+    animation: bounce 2s infinite;
+  }
+  
+  
